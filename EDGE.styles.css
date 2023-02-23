@@ -80,13 +80,13 @@ table {
 /* --------------- BEGIN USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 
 /* CHANGE THE BODY'S BACKGROUND COLOR TO THE DARK GRAY IF THE USER PREFERS DARK MODE */
-.themes {
+body {
   background-color: #fff;
 }
 
-@media (prefers-color-scheme: dark){
+body (prefers-color-scheme: dark){
   .theme.dark-scheme {
-    background: #222;
+    background-color: #222;
     color: #fff;
   }
 }
